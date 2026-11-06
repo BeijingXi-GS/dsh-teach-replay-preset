@@ -1,0 +1,23 @@
+{
+  "name": "dsh-teach-replay-preset",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "B站教学视频复现教练 preset：单视频复现讲解思路、多视频总结异同，产出教学设计/课件/报告/视频提示词",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-agent-preset",
+    "education",
+    "teaching",
+    "bilibili",
+    "video-analysis"
+  ]
+}
